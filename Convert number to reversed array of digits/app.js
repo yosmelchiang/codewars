@@ -49,4 +49,3 @@ function digitizeDeclarative(num) {
 
 console.log('Declarative: ', digitizeDeclarative(35231)) // [1, 3, 2, 5, 3]
 console.log('Declarative: ', digitizeDeclarative(-2324)) // [0]
->>>>>>> 81d171c56b6bda0958c532d2d87f1474751d64d5
