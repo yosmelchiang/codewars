@@ -12,7 +12,10 @@ export default defineConfig([
       semi: ['error', 'always'], // Require semicolons
       indent: ['error', 2], // Enforce 2-space indentation
       quotes: ['error', 'single'], // Use single quotes
-      'no-unused-vars': ['warn', { args: 'none', ignoreRestSiblings: true }], // Prevent accidental unused variables
+
+      'no-unused-vars':'off', // Turn it off
+      // 'no-unused-vars': ['warn', { args: 'none', ignoreRestSiblings: true }], // Prevent accidental unused variables
+      
       'max-depth': ['warn', 4], // no deep nesting
       complexity: ['warn', 10], // no function complexity
       'no-shadow': 'error', // no variable shadowing
