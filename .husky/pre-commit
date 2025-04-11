@@ -1,2 +1,2 @@
-npm run check || exit 1
-npm test || exit 1
+npm run check
+npm test
