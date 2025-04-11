@@ -24,4 +24,6 @@ if (missingTests.length > 0) {
   console.error('❌ Commit blocked. Missing tests for:');
   missingTests.forEach(file => console.error(`- ${file}`));
   process.exit(1); // Block commit if there are missing tests
+} else {
+  console.log('✅ No missing tests detected')
 }
