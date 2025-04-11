@@ -1,4 +1,4 @@
-const { nameShuffler, nameShufflerV2 } = require('./app.js');
+const { nameShuffler, nameShufflerV2 } = require('../name_shuffler/app.js');
 
 describe('Name shuffler', () => {
   test('Destructuring and template literals', () => {
