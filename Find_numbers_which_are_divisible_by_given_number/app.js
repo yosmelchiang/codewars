@@ -11,7 +11,7 @@ function divisibleBy(numbers, divisor) {
   const arr = [];
   for(let i = 0; i < numbers.length; i++) {
     if(numbers[i] % divisor === 0) {
-      arr.push(numbers[i])
+      arr.push(numbers[i]);
     }
   }
   return arr;
@@ -20,7 +20,7 @@ function divisibleBy(numbers, divisor) {
 // console.log(divisibleBy([1, 2, 3, 4, 5, 6], 2));
 
 function divisibleByV2(arr, divisor) {
-  return arr.filter((num) => num % divisor === 0)
+  return arr.filter((num) => {return num % divisor === 0;});
 }
 
 console.log(divisibleByV2([1, 2, 3, 4, 5, 6], 2));

@@ -17,13 +17,13 @@
 
 // Imperative version
 function isAllCaps(string) {
-    const upperCasedString = string.toUpperCase()
+  const upperCasedString = string.toUpperCase();
 
-    for(let i = 0; i < string.length; i++) {
-        if(string[i] != upperCasedString[i]) 
-            return false
-    }
-    return true
+  for(let i = 0; i < string.length; i++) {
+    if(string[i] != upperCasedString[i]) 
+      return false;
+  }
+  return true;
 }
 
 // console.log(isAllCaps('ACSKLDFJSGSKLDFJSKLDFJ'))
@@ -32,11 +32,11 @@ function isAllCaps(string) {
 
 // Declarative version
 function isAllCapsV2(string) {
-    return [...string].every(char => char.toUpperCase() === char)
+  return [...string].every(char => {return char.toUpperCase() === char;});
 }
 
-console.log(isAllCapsV2('ACSKLDFJSGSKLDFJSKLDFJ'))
-console.log(isAllCapsV2('hello I AM DONALD'))
+console.log(isAllCapsV2('ACSKLDFJSGSKLDFJSKLDFJ'));
+console.log(isAllCapsV2('hello I AM DONALD'));
 
 /**
  * MDN Array.prototype.every()

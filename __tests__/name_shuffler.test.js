@@ -6,6 +6,6 @@ describe('Name shuffler', () => {
   });
 
   test('Array.reverse()', () => {
-    expect(nameShufflerV2('john McClane')).toBe('McClane john')
-  })
+    expect(nameShufflerV2('john McClane')).toBe('McClane john');
+  });
 });

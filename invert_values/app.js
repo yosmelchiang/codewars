@@ -8,9 +8,9 @@
  */
 
 function invertValues(arr) {
-  return arr.map(n => -n)
+  return arr.map(n => {return -n;});
 }
 
-console.log(invertValues([1, 2, 3, 4, 5]))
-console.log(invertValues([1, -2, 3, -4, 5]))
-console.log(invertValues([]))
+console.log(invertValues([1, 2, 3, 4, 5]));
+console.log(invertValues([1, -2, 3, -4, 5]));
+console.log(invertValues([]));

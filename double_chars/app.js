@@ -6,9 +6,9 @@
  */
 
 function doubleChar(str) {
-  let result = ''
+  let result = '';
   for(let i = 0; i < str.length; i++) {
-    result += str[i] + str[i]
+    result += str[i] + str[i];
   }
   return result;
 }
@@ -18,16 +18,16 @@ function doubleChar(str) {
 // console.log(doubleChar('1234!_'))
 
 function doubleCharV2(str) {
-  return str.split('').map(c => c + c).join('')
+  return str.split('').map(c => {return c + c;}).join('');
 }
 // console.log(doubleCharV2('String'))
 // console.log(doubleCharV2('Hello World'))
 // console.log(doubleCharV2('1234!_'))
 
 function doubleCharV3(str) {
-  return [...str].map(c => c + c).join('')
+  return [...str].map(c => {return c + c;}).join('');
 }
 
-console.log(doubleCharV3('String'))
-console.log(doubleCharV3('Hello World'))
-console.log(doubleCharV3('1234!_'))
+console.log(doubleCharV3('String'));
+console.log(doubleCharV3('Hello World'));
+console.log(doubleCharV3('1234!_'));

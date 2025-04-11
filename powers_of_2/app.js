@@ -9,10 +9,10 @@
 // Iterations:
 // i = 0: 2^0
 function powerOfTwo(n) {
-  let arr = []; // Populate this array with the calculation results for each i
+  const arr = []; // Populate this array with the calculation results for each i
 
   for(let i = 0; i <= n; i++) {
-    arr.push(2**i)
+    arr.push(2**i);
   }
   return arr;
 }
@@ -22,10 +22,10 @@ function powerOfTwo(n) {
 // console.log(powerOfTwo(2)) // [1, 2, 4]
 
 function powerOfTwoV2(n) {
-  let arr = [];
+  const arr = [];
   
   for(let i = 0; i <= n; i++) {
-    arr.push(Math.pow(2, i))
+    arr.push(Math.pow(2, i));
   }
   return arr;
 }
@@ -34,8 +34,8 @@ function powerOfTwoV2(n) {
 // console.log(powerOfTwoV2(2)) // [1, 2, 4]
 
 function powerOfTwoV3(n) {
-  return [...Array(n + 1)].map((_, i) => 2**i)
+  return [...Array(n + 1)].map((_, i) => {return 2**i;});
 }
-console.log(powerOfTwoV3(0)) // [1]
-console.log(powerOfTwoV3(1)) // [1, 2]
-console.log(powerOfTwoV3(2)) // [1, 2, 4]
+console.log(powerOfTwoV3(0)); // [1]
+console.log(powerOfTwoV3(1)); // [1, 2]
+console.log(powerOfTwoV3(2)); // [1, 2, 4]

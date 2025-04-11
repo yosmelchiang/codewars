@@ -8,7 +8,7 @@
 
 // We are dividing here and checking wether the result is an integer or a float number
 function isDivisible(n, x, y) {
-    return Number.isInteger(n / x) && Number.isInteger(n / y)
+  return Number.isInteger(n / x) && Number.isInteger(n / y);
 }
 
 // console.log(isDivisible(3, 1, 3))
@@ -18,20 +18,20 @@ function isDivisible(n, x, y) {
 
 // We are using the modulus here
 function isDivisibleV2(n, x, y) {
-    const divisibleByX = n % x === 0;
-    const divisibleByY = n % y === 0;
+  const divisibleByX = n % x === 0;
+  const divisibleByY = n % y === 0;
     
-    return divisibleByX && divisibleByY;
+  return divisibleByX && divisibleByY;
 }
 
-console.log(isDivisibleV2(3, 1, 3))
-console.log(isDivisibleV2(12, 2, 6))
-console.log(isDivisibleV2(100, 5, 3))
-console.log(isDivisibleV2(12, 7, 5))
+console.log(isDivisibleV2(3, 1, 3));
+console.log(isDivisibleV2(12, 2, 6));
+console.log(isDivisibleV2(100, 5, 3));
+console.log(isDivisibleV2(12, 7, 5));
 
 // We are using the modulus here - Minimalistic
 function isDivisibleV3(n, x, y) {
-    return n % x === 0 && n % y === 0
+  return n % x === 0 && n % y === 0;
 }
 
 // console.log(isDivisibleV3(3, 1, 3))
