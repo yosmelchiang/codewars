@@ -42,4 +42,10 @@ function abbrevName(name) {
 // console.log(abbrevName(123)); // Invalid input
 // console.log(abbrevName('Yos')); // Invalid input its just one name we are supposed to have two
 
+function abbrevNameV2(name) {
+    return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+}
+
+console.log(abbrevNameV2('Yosmel Chiang'))
+
 module.exports = abbrevName;
