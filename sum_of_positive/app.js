@@ -8,4 +8,10 @@ function sumOfPositives(arr) {
     return result;
 }
 
-console.log(sumOfPositives([1, -4, 7, 12]));
+console.log('For loop: ',sumOfPositives([1, -4, 7, 12]));
+
+function sumOfPositivesV2(arr) {
+    return arr.filter(n => n > 0).reduce((acc, curr) => acc + curr, 0)
+}
+
+console.log('filter & reduce: ', sumOfPositivesV2([1, -4, 7, 12]))
