@@ -39,11 +39,12 @@ function twoHighest(arr) {
 
 // Using filter to sort out uniques
 // We filter the array by keeping only the unique indexes of each value
-// We use lastIndexOf for this (meaning that if index of the current value is not the last index of this value in the array, discard it from the filter)
+  // duplicate items are those with a different index of the same value
+// We use indexOf for this (meaning that if index of the current value is not the same as the first found index of the value in the array, discard it from the filter)
 
 
 function twoHighestFilter(arr) {
-    return arr.filter((value, index) => index === arr.lastIndexOf(value)).sort((a, b) => b -a).slice(0, 2);
+    return arr.filter((value, index) => index === arr.indexOf(value)).sort((a, b) => b -a).slice(0, 2);
 }
 log(twoHighestFilter([9, 10, 10, 10, 8])) // [10, 9]
 log(twoHighestFilter([15, 20, 20, 17])) // [20, 17];
