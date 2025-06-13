@@ -35,6 +35,19 @@ function isVow(arr) {
 
 // Example: [100,100,116,105,117,121]
 
-console.log(isVow([100, 100, 116, 105, 117, 121])) // [ 100, 100, 116, 'i', 'u', 121 ]
-console.log(isVow([118, 117, 120, 121, 117, 98, 122, 97, 120, 106, 104, 116, 113, 114, 113, 120, 106])) // 118, 'u', 120, 121, 'u', 98,  122, 'a', 120, 106, 104, 116, 113, 114, 113, 120, 106
+// console.log(isVow([100, 100, 116, 105, 117, 121])) // [ 100, 100, 116, 'i', 'u', 121 ]
+// console.log(isVow([118, 117, 120, 121, 117, 98, 122, 97, 120, 106, 104, 116, 113, 114, 113, 120, 106])) // 118, 'u', 120, 121, 'u', 98,  122, 'a', 120, 106, 104, 116, 113, 114, 113, 120, 106
 
+// Declarative solution
+function isVowMap(arr) {
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+    return arr.map(num => {
+        const vowel = String.fromCharCode(num); // will return a character if you pass it a charcode
+        // We either return the number itself or the vowel
+        if(vowels.includes(vowel)) return vowel
+        return num;
+    })
+}
+
+console.log(isVowMap([100, 100, 116, 105, 117, 121]))
