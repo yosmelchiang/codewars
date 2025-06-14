@@ -1,6 +1,8 @@
-# 8kyu
+# 7kyu
 
-This branch contains my solutions for 8kyu challenges on Codewars. The focus is on beginner-level problems, allowing me to strengthen foundational programming skills like basic loops, conditionals, and simple data structures.
+This branch contains my solutions for 7kyu challenges on Codewars.
 
-# Languages used:
+[List of all collections](https://www.codewars.com/users/yosmelchiang/authored_collections)
+
+# Languages:
 - Javascript
