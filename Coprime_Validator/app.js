@@ -1,17 +1,22 @@
-// Write a program to determine if the two given numbers are coprime. A pair of numbers are coprime if their greatest shared factor is 1.
-// 
+// We need to find out if two numbers are coprime
 // The inputs will always be two positive integers between 2 and 99
 
-// Examples
-// 20 and 27:
+// Using euclidian method to calculate GCD
+// if the GCD (Greatest commong divisor) is 1, the numbers are coprime
 
-// Factors of 20: 1, 2, 4, 5, 10, 20
-// Factors of 27: 1, 3, 9, 27
-// Greatest shared factor: 1
-// Result: 20 and 27 are coprime
-// 12 and 39:
+// GCD(a, b) = GCD(b, a % b);
+function findGcd(a, b) {
+    while (b !== 0) { // Loop until b is equal to 0
+        const temp = b; // Store current b
+        b = a % b; // Assign the remainder of a divided by b to b
+        a = temp // Assign the old b value to a
+    }
+    return a; // when b is 0, a holds the gcd
+}
 
-// Factors of 12: 1, 2, 3, 4, 6, 12
-// Factors of 39: 1, 3, 13, 39
-// Greatest shared factor: 3
-// Result: 12 and 39 are not coprimes
+function isCoprime(x, y) {
+    return findGcd(x, y) === 1;
+}
+
+console.log(findGcd(20, 27)) // 1
+console.log(isCoprime(20, 27)) // true
