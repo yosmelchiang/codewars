@@ -1,3 +1,5 @@
+// source: codewars
+
 function trim(str, size) {
     // If the string length is less than or equal to size, return the string as is
     if(str.length <= size ) return str;

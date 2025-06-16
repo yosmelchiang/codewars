@@ -1,3 +1,5 @@
+// source: codewars
+
 // We need to find out if two numbers are coprime
 // The inputs will always be two positive integers between 2 and 99
 

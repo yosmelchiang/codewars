@@ -1,3 +1,5 @@
+// source: codewars
+
 // Using loops
 function triangular(n) {
     // Outer loop > builds each row

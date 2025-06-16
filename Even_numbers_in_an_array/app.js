@@ -1,3 +1,5 @@
+// source: codewars
+
 function evenNumbers(array, number) {
     let even = [];
     let revArr = array.reverse()
