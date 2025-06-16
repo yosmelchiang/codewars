@@ -32,7 +32,17 @@ function leastLarger(a,i) {
   return a.indexOf(smallest)
 }
 
-log(leastLarger([4, 1, 3, 5, 6], 0))
-log(leastLarger([4, 1, 3, 5, 6], 4 )) // 
-log(leastLarger([1, 3, 5, 2, 4], 0 ))
+// log(leastLarger([4, 1, 3, 5, 6], 0))
+// log(leastLarger([4, 1, 3, 5, 6], 4 )) // 
+// log(leastLarger([1, 3, 5, 2, 4], 0 ))
 
+
+// Simplfified
+function leastLargerOneLiner(a,i) {
+    return a.indexOf(Math.min(...a.filter(e => e > a[i])))
+}
+
+
+log(leastLargerOneLiner([4, 1, 3, 5, 6], 0))
+log(leastLargerOneLiner([4, 1, 3, 5, 6], 4 )) // 
+log(leastLargerOneLiner([1, 3, 5, 2, 4], 0 ))
