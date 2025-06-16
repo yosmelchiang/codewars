@@ -1,3 +1,5 @@
+// source: codewars
+
 function areYouPlayingBanjo(name) {
   return name.toLowerCase().startsWith('r') ? `${name} play banjo` : `${name} does not play banjo`;
 };

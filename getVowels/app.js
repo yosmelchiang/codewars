@@ -1,3 +1,5 @@
+// source: codewars
+
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 
 function getVowels(str) {

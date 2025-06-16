@@ -1,3 +1,5 @@
+// source: codewars
+
 // Clock shows h hours, m minutes and s seconds after midnight (00:00:00)
 // Write a function which returns the time since midnight in milliseconds
 /** Examples

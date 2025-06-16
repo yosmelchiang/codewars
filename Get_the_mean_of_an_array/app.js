@@ -1,3 +1,5 @@
+// source: codewars
+
 // Examples
 /**
  * [2,2,2,2]

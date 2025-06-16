@@ -1,3 +1,5 @@
+// source: codewars
+
 // Given an array of numbers
 // Check if any of the numbers are the char codes for lower case vowels (a, e, i, o, u)
 // Create a vowel key:value object { number:vowel } using charCodeAt

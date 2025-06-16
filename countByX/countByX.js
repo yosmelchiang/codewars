@@ -1,3 +1,5 @@
+// source: codewars
+
 // const x = 2;
 // const n = 5;
 

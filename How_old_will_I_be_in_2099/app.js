@@ -1,3 +1,5 @@
+// source: codewars
+
 function  calculateAge(dob, year) {  
   let result = '';
   

@@ -1,3 +1,5 @@
+// source: codewars
+
 /**
  * The function takes two arguments and returns all numbers which are divisible by the given divisor
  * First argument is an array of numbers

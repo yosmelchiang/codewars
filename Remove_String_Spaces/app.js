@@ -1,3 +1,5 @@
+// source: codewars
+
 // Write a function that removes the spaces of a string and returns the string without spaces
 
 /**

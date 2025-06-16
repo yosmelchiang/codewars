@@ -1,3 +1,5 @@
+// source: codewars
+
 /**
  * Create a method to see whether the string is ALL CAPS.
  * In this Kata, a string is said to be in ALL CAPS whenever it does 

@@ -1,3 +1,5 @@
+// source: codewars
+
 // Function that converts a name into initials
 // Function takes only two words with one space in between
 // Output must be two capital letters separated by a dot

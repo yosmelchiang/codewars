@@ -1,3 +1,5 @@
+// source: codewars
+
 function solution(a, b){
   let result = '';
   if(a.length < b.length) {

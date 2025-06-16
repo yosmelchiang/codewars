@@ -1,3 +1,5 @@
+// source: codewars
+
 // Name Shuffler
 // Write a function that returns a new string where the firstname is swapped with the last name
 

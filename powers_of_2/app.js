@@ -1,3 +1,5 @@
+// source: codewars
+
 // Takes a non-integer n as input
 // Returns a list of all the powers of 2 ranging from 0 and up to n (n inclusive)
 

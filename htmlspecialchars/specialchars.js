@@ -1,3 +1,5 @@
+// source: codewars
+
 /**
  * Your mission is to implement a function that converts the following characters:
 < --> &lt;

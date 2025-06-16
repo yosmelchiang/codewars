@@ -1,3 +1,5 @@
+// source: codewars
+
 const log = console.log
 
 // Return the two unique highest values in a list

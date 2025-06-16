@@ -1,3 +1,5 @@
+// source: codewars
+
 // We want a function that removes duplicates from an array
   // The number have to be non negative
   // The list without duplicates have to be removed

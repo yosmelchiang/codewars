@@ -1,3 +1,5 @@
+// source: codewars
+
 // Given a string, we have to return a new string where each character (case-sensitive) is repeated once.
 /** Example
  * "String" -> "SSttrriinngg"

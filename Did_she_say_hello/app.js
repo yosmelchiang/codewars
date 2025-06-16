@@ -1,3 +1,5 @@
+// source: codewars
+
 const testString = 'AhoJ: HOMBre yOu; doINg viStA: vIsta BieN: dOINg doiNg quE You; LA, HEllo yOU pAsA. biEn: Are pasa ARe YoU SaLUt: ahOj:';
 const testString2 = 'HaSta! DoING quE; doing La YOu PASa ARe PaSa hoW? hALlO HOw yOU TScHuSS TreS VISta QUe hAsTA';
 

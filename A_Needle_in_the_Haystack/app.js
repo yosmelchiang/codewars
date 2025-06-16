@@ -1,3 +1,5 @@
+// source: codewars
+
 // Find the "needle"
 const arr = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
 

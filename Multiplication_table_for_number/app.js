@@ -1,3 +1,5 @@
+// source: codewars
+
 // Using strings
 function multiTable(number) {
   let table = ''

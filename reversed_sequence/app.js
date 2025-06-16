@@ -1,3 +1,5 @@
+// source: codewars
+
 // Start, Check, Do, Step
 function reverseSequence(n) {
   const arr = [];
