@@ -1,6 +1,6 @@
-# Medium
+# 7kyu
 
-This branch contains my medium level javascript challenges
+This branch contains 7yku level javascript challenges
 
 # Languages:
 - Javascript
